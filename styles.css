@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+ul, li {
+    list-style-type: none;
+}
+
+.title {
+    width: 100%;
+    font-size: 1.5rem;
+    white-space: nowrap;
+}
+
+.container {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.17;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 661px;
+    min-height: 400px;
+    padding: 50px 0;
+    background: #CCC;
+}
+
+.viewResult {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.searchInfo {
+    width: 100%;
+    font-weight: bold;
+    height: 61px;
+    font-size: 1.5rem;
+}
+
+.inputRepList {
+    padding: 3px;
+    background: #E3E3E3;
+    width: 100%;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.inputRepList:hover {
+    background: #65CDF9;
+}
+
+.itemRepList {
+    padding: 8px;
+    position: relative;
+    right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+    background: #E27BEB;
+    border: 1px solid black;
+    line-height: 1.17;
+    font-size: 1.2rem;
+}
+
+.itemRepList img {
+    cursor: pointer;
+}
+
+.deleteBtn {
+    cursor: pointer;
+}
